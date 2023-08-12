@@ -1,0 +1,18 @@
+{
+    "images": {
+        "header": {
+            "bg": "https://uploaddeimagens.com.br/images/004/574/638/full/background.png?1691876480",
+            "dev": "https://uploaddeimagens.com.br/images/004/574/659/full/dev.png?1691878449"
+        },
+        "main":{
+            "sobre": "https://uploaddeimagens.com.br/images/004/574/680/full/about.png?1691881527",
+            "hobbies": "https://uploaddeimagens.com.br/images/004/574/682/full/hobby.png?1691881592",
+            "stacks": "https://uploaddeimagens.com.br/images/004/574/684/full/stacks.png?1691881643",
+            "profile": "https://uploaddeimagens.com.br/images/004/574/694/full/talis_duarte.png?1691882707"
+        }
+        
+    },
+    "main": {
+        
+    }
+}
