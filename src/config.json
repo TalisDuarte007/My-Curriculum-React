@@ -8,7 +8,15 @@
             "sobre": "https://uploaddeimagens.com.br/images/004/574/680/full/about.png?1691881527",
             "hobbies": "https://uploaddeimagens.com.br/images/004/574/682/full/hobby.png?1691881592",
             "stacks": "https://uploaddeimagens.com.br/images/004/574/684/full/stacks.png?1691881643",
-            "profile": "https://uploaddeimagens.com.br/images/004/574/694/full/talis_duarte.png?1691882707"
+            "profile": "https://uploaddeimagens.com.br/images/004/574/694/full/talis_duarte.png?1691882707",
+            "star":"https://uploaddeimagens.com.br/images/004/614/577/full/estrela.png?1695229932",
+            "lampada":"https://uploaddeimagens.com.br/images/004/614/591/full/lampada.png?1695230301"
+        },
+        "sociais":{
+            "twitter":"https://uploaddeimagens.com.br/images/004/614/553/full/twitter.png?1695228234",
+            "instagram":"https://uploaddeimagens.com.br/images/004/614/554/full/instagram.png?1695228329",
+            "linkedin":"https://uploaddeimagens.com.br/images/004/614/556/full/linkedin.png?1695228355",
+            "github":"https://uploaddeimagens.com.br/images/004/614/557/full/github.png?1695228382"
         }
         
     },
