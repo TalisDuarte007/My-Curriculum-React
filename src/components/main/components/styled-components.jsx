@@ -4,16 +4,31 @@ export const StyledContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 100px 500px 100px 500px;
-    @media (max-width: 600px) {
-        align-items: stretch; /* Garante que as divs tenham a mesma altura */
+    max-width: 1400px;
+    width: 95%;
+    padding: 20px; /* Adicione preenchimento para melhor aparência */
+    box-sizing: border-box;
+    margin: 0 auto;
+    @media (max-width: 1200px) {
+        
     }
+    @media (max-width: 1024px) {
+        /* Estilos para tablets em orientação retrato */
+    }
+
+
+    //@media (max-width: 600px) {
+     //   align-items: stretch; /* Garante que as divs tenham a mesma altura */
+    //}
 `;
 
 export const StyledRow = styled.div`
     display: flex;
     gap: 10px; /* Espaçamento entre as divs */
     align-items: stretch;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
 `;
 
 export const StyledBox1 = styled.div`
@@ -84,10 +99,19 @@ export const ContentWrapper = styled.div`
         //margin: 0 auto;
         padding: auto;
         margin: 30px 0 30px 0;
+        @media (max-width: 1024px) {
+            width: 60%;
+        }
     }
     .fotoIcon {
         width: 45px;
         height: auto;
+    }
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 `;
 
@@ -102,26 +126,7 @@ export const StyledHRPorcentagem = styled.hr`
     width: 100%;
     border-color: white ;`;
 
-export const StyledDivFormacoes = styled.div`
-    .linkAcessoDiploma{
-        color: white;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 120%;
-        font-weight: bolder;
-        vertical-align: baseline;
-        list-style: none;
-	    text-decoration: none;
-    }
-    div{
-        margin-bottom: 20px;
-    }
-    .textoFormacoes{
-        margin: 0;
-        margin-top: 5px;
-    }
-`;
+
 
 export const StyledDivListaSkills = styled.div`
     .item-skill-barra{
@@ -137,4 +142,7 @@ export const StyledDivListaSkills = styled.div`
     flex-direction: column;
     margin: 30px 0 30px 0 ;
     width: 350px;
+    @media (max-width: 1024px) {
+        width: 80%;
+    }
 `;
