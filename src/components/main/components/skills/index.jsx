@@ -1,4 +1,5 @@
-import { StyledBox2, ContentWrapper, StyledHRPorcentagem } from "../styled-components";
+import { StyledBox2, ContentWrapper } from "../styled-components";
+import { StyledDivListaSkills, StyledHRPorcentagem } from "./components/styled-skills";
 
 export default function Skills(props){
     return(
@@ -8,7 +9,7 @@ export default function Skills(props){
           <></>
           <h2>Skills</h2>
 
-          <>
+          <StyledDivListaSkills>
             <div className="item-skill-barra">
               <p>60%</p>
               <p>JavaScript</p>
@@ -39,7 +40,7 @@ export default function Skills(props){
               <p>CSS</p>
             </div>
             <StyledHRPorcentagem></StyledHRPorcentagem>
-          </>
+          </StyledDivListaSkills>
 
         </ContentWrapper>
     </StyledBox2>

@@ -7,7 +7,7 @@ export default function Formacao(props){
         <StyledBox1>
                 <ContentWrapper className="ContainerWrapperSpecial">
                 <img className="fotoIcon" src={props.config.images.main.lampada} alt="" />
-                <StyledHR></StyledHR>
+                <StyledHR/>
                 <h2>Formação</h2>
 
                 <StyledDivFormacoes>
@@ -15,11 +15,13 @@ export default function Formacao(props){
                     <a className="linkAcessoDiploma"href="https://drive.google.com/file/d/1Q0dQNkwWR8mCa3ICEcvMQrxlfZPxJSCU/view?usp=drive_link">ADS (Análise e Desenvolvimento de Sistemas)</a>
                     <p className="textoFormacoes">Tecnólogo em Análise e Desenvolvimento de Sistemas. Concluído em Junho de 2023.</p>
                 </StyledDivFormacoes>
+                <StyledHR/>
                 <StyledDivFormacoes>
                         <h3>Alura</h3>
                         <a className="linkAcessoDiploma" href="https://cursos.alura.com.br/degree/certificate/f994e2da-a4b3-43a0-bdcf-79eac2824cde">Formação Front-End</a>
                         <p className="textoFormacoes">Curso de 115horas focado em Front-End com HTML, CSS e JavaScript.</p>
                 </StyledDivFormacoes>
+                <StyledHR/>
                 <StyledDivFormacoes>
                     <h3>Digital Innovation One</h3>
                     <div>

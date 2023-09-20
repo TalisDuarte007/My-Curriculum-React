@@ -18,3 +18,8 @@ export const StyledDivListaSkills = styled.div`
         width: 80%;
     }
 `;
+
+export const StyledHRPorcentagem = styled.hr`
+    width: 100%;
+    border-color: white 
+;`
