@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledDivListaSkills = styled.div`
     .item-skill-barra{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         margin-top: 50px;
     }
@@ -19,7 +19,20 @@ export const StyledDivListaSkills = styled.div`
     }
 `;
 
-export const StyledHRPorcentagem = styled.hr`
+
+export const ProgressBarContainer = styled.div`
+    border-radius: 50px;
     width: 100%;
-    border-color: white 
-;`
+    height: 7px; /* Altura da barra de progresso */
+    background-color: white; /* Cor de fundo da barra */
+
+    /* Use um gradiente linear para a cor da barra com base na porcentagem */
+    background-image: linear-gradient(to right, black ${props => props.percentage}%, white ${props => props.percentage}%);
+`;
+
+export const ProgressBarConfig = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+`;

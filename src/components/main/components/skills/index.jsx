@@ -1,5 +1,7 @@
 import { StyledBox2, ContentWrapper } from "../styled-components";
-import { StyledDivListaSkills, StyledHRPorcentagem } from "./components/styled-skills";
+import ProgressBar from "./components/progressbar";
+import { StyledDivListaSkills } from "./components/styled-skills";
+//import ProgressBar from "./components/progressbar";
 
 export default function Skills(props){
     return(
@@ -11,35 +13,23 @@ export default function Skills(props){
 
           <StyledDivListaSkills>
             <div className="item-skill-barra">
-              <p>60%</p>
-              <p>JavaScript</p>
+              <ProgressBar name="JavaScript" percentage={60}/>
             </div>
-            <StyledHRPorcentagem></StyledHRPorcentagem>
             <div className="item-skill-barra">
-              <p>40%</p>
-              <p>TypeScript</p>
+              <ProgressBar name="TypeScript" percentage={40}/>
             </div>
-            <StyledHRPorcentagem></StyledHRPorcentagem>
             <div className="item-skill-barra">
-              <p>40%</p>
-              <p>Angular</p>
+             <ProgressBar name="Angular" percentage={40}/>
             </div>
-            <StyledHRPorcentagem></StyledHRPorcentagem>
             <div className="item-skill-barra">
-              <p>50%</p>
-              <p>React</p>
+              <ProgressBar name="React" percentage={50}/>
             </div>
-            <StyledHRPorcentagem></StyledHRPorcentagem>
             <div className="item-skill-barra">
-              <p>90%</p>
-              <p>HTML</p>
+              <ProgressBar name="HTML" percentage={90}/>
             </div>
-            <StyledHRPorcentagem></StyledHRPorcentagem>
             <div className="item-skill-barra">
-              <p>90%</p>
-              <p>CSS</p>
+              <ProgressBar name="CSS" percentage={90}/>
             </div>
-            <StyledHRPorcentagem></StyledHRPorcentagem>
           </StyledDivListaSkills>
 
         </ContentWrapper>

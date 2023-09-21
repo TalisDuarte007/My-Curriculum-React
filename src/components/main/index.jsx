@@ -3,10 +3,13 @@ import About from "./components/about";
 import Profile from "./components/profile";
 import Skills from "./components/skills";
 import Formacao from "./components/formacao";
+import ProgressBar from "./components/skills/components/progressbar";
 
 export default function Main(props) {
   return (
     <StyledContainer>
+
+    <ProgressBar name="Java" percentage={50} />
 
       <StyledRow>
         <About config={props.config}/>
@@ -17,7 +20,7 @@ export default function Main(props) {
         <Skills config={props.config}/>
         <Formacao config={props.config}/>
       </StyledRow>
-      
+
       <StyledRow>
       <StyledBox1>
             <ContentWrapper>
