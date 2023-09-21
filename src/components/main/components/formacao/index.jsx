@@ -12,8 +12,14 @@ export default function Formacao(props){
 
                 <StyledDivFormacoes>
                     <h3>Unopar</h3>
-                    <a className="linkAcessoDiploma" target="_blank" href="https://drive.google.com/file/d/1Q0dQNkwWR8mCa3ICEcvMQrxlfZPxJSCU/view?usp=drive_link" rel="noreferrer">ADS (Análise e Desenvolvimento de Sistemas)</a>
-                    <p className="textoFormacoes">Tecnólogo em Análise e Desenvolvimento de Sistemas. Concluído em Junho de 2023.</p>
+                    <div>
+                        <a className="linkAcessoDiploma" target="_blank" href="https://drive.google.com/file/d/1Q0dQNkwWR8mCa3ICEcvMQrxlfZPxJSCU/view?usp=drive_link" rel="noreferrer">ADS (Análise e Desenvolvimento de Sistemas)</a>
+                        <p className="textoFormacoes">Tecnólogo em Análise e Desenvolvimento de Sistemas. Concluído em Junho de 2023.</p>
+                    </div>
+                    <div>
+                        <a className="linkAcessoDiploma" target="_blank" href="https://www.unopar.com.br/" rel="noreferrer">Engenharia de Software</a>
+                        <p className="textoFormacoes">Pós-Graduação em Engenharia de Software, previsto para Janeiro de 2024.</p>
+                    </div>                    
                 </StyledDivFormacoes>
                 <StyledHR/>
                 <StyledDivFormacoes>

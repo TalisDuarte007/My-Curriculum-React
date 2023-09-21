@@ -79,9 +79,11 @@ export const ContentWrapper = styled.div`
 
     .lista-skills{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 30px 20px 0 20px;
+        flex-wrap: nowrap; /* Evita quebra de linha por padrão */
+        justify-content: space-between; /* Espaço entre os itens */
+        list-style: none; /* Remove marcadores de lista */
+        padding: 0;
+        margin: 0;
     }
     .skills > a > img{
         width: 60px;
@@ -108,10 +110,24 @@ export const ContentWrapper = styled.div`
         height: auto;
     }
     @media (max-width: 1024px) {
+        .lista-skills{
+            flex-wrap: wrap; 
+            gap: 50px;
+        }
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    @media (max-width: 768px) {
+        .lista-skills{
+            flex-wrap: wrap; 
+            gap: 50px;
+        }
+        .skills > a > img{
+            width: 30px;
+            height: auto;
+        }
     }
 `;
 
