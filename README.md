@@ -19,22 +19,26 @@ Se você deseja visualizar este currículo online localmente em sua máquina, si
 
    
 git clone https://github.com/TalisDuarte007/My-Curriculum-React.git
-Navegue até o diretório do projeto:
+
+2.Navegue até o diretório do projeto:
 
 
 
 cd My-Curriculum-React
-Instale as dependências:
+
+3.Instale as dependências:
 
 
 
 npm install
-Inicie o servidor de desenvolvimento:
+
+4.Inicie o servidor de desenvolvimento:
 
 
 
 npm start
-Abra o navegador e acesse http://localhost:3000.
+
+5.Abra o navegador e acesse http://localhost:3000.
 
 Contribuições
 Sinta-se à vontade para sugerir melhorias ou contribuir para este projeto. Basta abrir uma issue ou criar um pull request.
