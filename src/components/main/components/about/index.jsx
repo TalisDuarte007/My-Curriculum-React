@@ -1,6 +1,7 @@
 import { StyledBox1, ContentWrapper, StyledHR } from "../styled-components";
 
 export default function About (props){   
+    const stackLinks = props.config.stacks;
     return(
         <StyledBox1>
             <ContentWrapper>
@@ -16,43 +17,13 @@ export default function About (props){
                 <StyledHR></StyledHR>
                 <h2>Minhas Stacks</h2>
                 <ul className="lista-skills">
-                    <li className="skills">
-                       
-                            <img src="https://img.icons8.com/color/48/html-5--v1.png" alt="#"/>
-                        
-                    </li>
-                    <li className="skills">
-                       
-                            <img src="https://img.icons8.com/color/48/css3.png" alt="#"/>
-                        
-                    </li>
-                    <li className="skills">
-                       
-                            <img src="https://img.icons8.com/color/48/javascript--v1.png" alt="#"/>
-                        
-                    </li>
-                    <li className="skills">
-                       
-                            <img src="https://img.icons8.com/color/48/typescript.png" alt="#"/>
-                        
-                    </li>
-                    <li className="skills">
-                       
-                            <img src="https://img.icons8.com/color/48/angularjs.png" alt="#"/>
-                        
-                    </li>
-                    <li className="skills">
-                       
-                            <img src="https://img.icons8.com/color/48/react-native.png" alt="#"/>
-                        
-                    </li>
-                    <li className="skills">
-                      <img src="https://img.icons8.com/color/48/git.png" alt="#"/>
-                    </li>
-                    <li className="skills">
-                      <img src="https://img.icons8.com/color/48/github--v1.png" alt="#"/>
-                    </li>
+                        {stackLinks.map((link, index) => (
+                                <li className="skills" key={index}>
+                                <img src={link.link} alt="#" />
+                                </li>
+                        ))}
                 </ul>
+
             </ContentWrapper>
         </StyledBox1>
     )

@@ -2,44 +2,35 @@ import { StyledBox1, ContentWrapper, StyledHR } from "../styled-components"
 import { StyledDivFormacoes } from "./components/styled-formacao"
 
 
-export default function Formacao(props){
-    return(
-        <StyledBox1>
-                <ContentWrapper className="ContainerWrapperSpecial">
-                <img className="fotoIcon" src={props.config.images.main.lampada} alt="" />
-                <StyledHR/>
-                <h2>Formação</h2>
+export default function Formacao(props) {
+    const listaFormacoes = Object.keys(props.config.main.formacoes)
 
-                <StyledDivFormacoes>
-                    <h3>Unopar</h3>
-                    <div>
-                        <a className="linkAcessoDiploma" target="_blank" href="https://drive.google.com/file/d/1Q0dQNkwWR8mCa3ICEcvMQrxlfZPxJSCU/view?usp=drive_link" rel="noreferrer">ADS (Análise e Desenvolvimento de Sistemas)</a>
-                        <p className="textoFormacoes">Tecnólogo em Análise e Desenvolvimento de Sistemas. Concluído em Junho de 2023.</p>
-                    </div>
-                    <div>
-                        <a className="linkAcessoDiploma" target="_blank" href="https://www.unopar.com.br/" rel="noreferrer">Engenharia de Software</a>
-                        <p className="textoFormacoes">Pós-Graduação em Engenharia de Software, previsto para Janeiro de 2024.</p>
-                    </div>                    
-                </StyledDivFormacoes>
-                <StyledHR/>
-                <StyledDivFormacoes>
-                        <h3>Alura</h3>
-                        <a className="linkAcessoDiploma" target="_blank" href="https://cursos.alura.com.br/degree/certificate/f994e2da-a4b3-43a0-bdcf-79eac2824cde" rel="noreferrer">Formação Front-End</a>
-                        <p className="textoFormacoes">Curso de 115horas focado em Front-End com HTML, CSS e JavaScript.</p>
-                </StyledDivFormacoes>
-                <StyledHR/>
-                <StyledDivFormacoes>
-                    <h3>Digital Innovation One</h3>
-                    <div>
-                        <a className="linkAcessoDiploma" target="_blank" href="https://www.dio.me/certificate/5E04ACF2/share" rel="noreferrer">Santander Bootcamp Fullstack Developer</a>
-                        <p className="textoFormacoes">Bootcamp de 120horas focado em FullStack com Angular e Java.</p>
-                    </div>
-                    <div>
-                        <a className="linkAcessoDiploma" target="_blank" href="https://www.dio.me/certificate/7D833A67/share" rel="noreferrer">Geração Tech Unimed-BH</a>
-                        <p className="textoFormacoes">Bootcamp de 127horas focado em FullStack com Angular, MySQL e .NET.</p>
-                    </div>
-                </StyledDivFormacoes>
-                </ContentWrapper>
-    </StyledBox1>
+    return (
+        <StyledBox1>
+            <ContentWrapper className="ContainerWrapperSpecial">
+                <img className="fotoIcon" src={props.config.images.main.lampada} alt="" />
+                <StyledHR />
+                <h2>Formação</h2>
+                {listaFormacoes.map((listaFormacao, index) => {
+                    const cursos = props.config.main.formacoes[listaFormacao];
+                    return (
+                        <div key={listaFormacao}>
+                            <StyledDivFormacoes>
+                                <h3>{listaFormacao}</h3>
+                                <div>
+                                    {cursos.map((curso) => (
+                                        <div key={curso.link}>
+                                            <a className="linkAcessoDiploma" target="_blank" href={curso.link} rel="noreferrer">{curso.nome}</a>
+                                            <p className="textoFormacoes">{curso.info}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </StyledDivFormacoes>
+                            {index !== listaFormacoes.length - 1 && <StyledHR key={`hr_${listaFormacao}`} />}
+                        </div>
+                    );
+                })}
+            </ContentWrapper>
+        </StyledBox1>
     )
 }

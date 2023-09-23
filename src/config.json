@@ -1,4 +1,68 @@
 {
+    "profile": {
+        "photo": "https://uploaddeimagens.com.br/images/004/574/694/full/talis_duarte.png?1691882707",
+        "nome": "Talis André Padilha Duarte",
+        "nascimento": "02/04/1997",
+        "nascionalidade": "Brasileiro",
+        "socialLinks": [
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/TalisDuarte007/",
+                "imageSrc": "https://uploaddeimagens.com.br/images/004/614/554/full/instagram.png?1695228329"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://twitter.com/TalisDuarte007/",
+                "imageSrc": "https://uploaddeimagens.com.br/images/004/614/553/full/twitter.png?1695228234"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/talis-duarte-51ba9b161/",
+                "imageSrc": "https://uploaddeimagens.com.br/images/004/614/556/full/linkedin.png?1695228355"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com/TalisDuarte007",
+                "imageSrc": "https://uploaddeimagens.com.br/images/004/614/557/full/github.png?1695228382"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "javaScript",
+            "percentage": "60"
+        },
+        {
+            "name": "TypeScript",
+            "percentage": "40"
+        },
+        {
+            "name": "Angular",
+            "percentage": "40"
+        },
+        {
+            "name": "React",
+            "percentage": "50"
+        },
+        {
+            "name": "HTML5",
+            "percentage": "90"
+        },
+        {
+            "name": "CSS3",
+            "percentage": "90"
+        }
+    ],
+    "stacks":[
+        {"link": "https://img.icons8.com/color/48/html-5--v1.png"},
+        {"link": "https://img.icons8.com/color/48/css3.png"},
+        {"link": "https://img.icons8.com/color/48/javascript--v1.png"},
+        {"link": "https://img.icons8.com/color/48/typescript.png"},
+        {"link": "https://img.icons8.com/color/48/angularjs.png"},
+        {"link": "https://img.icons8.com/color/48/react-native.png"},
+        {"link": "https://img.icons8.com/color/48/git.png"},
+        {"link": "https://img.icons8.com/color/48/github--v1.png"}
+    ],
     "images": {
         "header": {
             "bg": "https://uploaddeimagens.com.br/images/004/574/638/full/background.png?1691876480",
@@ -11,16 +75,41 @@
             "profile": "https://uploaddeimagens.com.br/images/004/574/694/full/talis_duarte.png?1691882707",
             "star":"https://uploaddeimagens.com.br/images/004/614/577/full/estrela.png?1695229932",
             "lampada":"https://uploaddeimagens.com.br/images/004/614/591/full/lampada.png?1695230301"
-        },
-        "sociais":{
-            "twitter":"https://uploaddeimagens.com.br/images/004/614/553/full/twitter.png?1695228234",
-            "instagram":"https://uploaddeimagens.com.br/images/004/614/554/full/instagram.png?1695228329",
-            "linkedin":"https://uploaddeimagens.com.br/images/004/614/556/full/linkedin.png?1695228355",
-            "github":"https://uploaddeimagens.com.br/images/004/614/557/full/github.png?1695228382"
-        }
-        
+        }        
     },
     "main": {
-        
+        "formacoes": {
+            "Unopar": [
+                {
+                    "nome":"ADS (Análise e Desenvolvimento de Sistemas)",
+                    "link": "https://drive.google.com/file/d/1Q0dQNkwWR8mCa3ICEcvMQrxlfZPxJSCU/view?usp=drive_link",
+                    "info": "Tecnólogo em Análise e Desenvolvimento de Sistemas. Concluído em Junho de 2023."
+                },
+                {
+                    "nome":"Engenharia de Software",
+                    "link": "https://www.unopar.com.br/",
+                    "info": "Pós-Graduação em Engenharia de Software, previsto para Janeiro de 2024."
+                }
+            ],
+            "Alura":[
+                {
+                    "nome":"Formação Front-End",
+                    "link": "https://cursos.alura.com.br/degree/certificate/f994e2da-a4b3-43a0-bdcf-79eac2824cde",
+                    "info": "Curso de 115horas focado em Front-End com HTML, CSS e JavaScript."
+                }
+            ],
+            "Digital Innovation One":[
+                {
+                    "nome":"Santander Bootcamp Fullstack Developer",
+                    "link": "https://www.dio.me/certificate/5E04ACF2/share",
+                    "info": "Bootcamp de 120horas focado em FullStack com Angular e Java."
+                },
+                {
+                    "nome":"Geração Tech Unimed-BH",
+                    "link": "https://www.dio.me/certificate/7D833A67/share",
+                    "info": "Bootcamp de 127horas focado em FullStack com Angular, MySQL e .NET."
+                }
+            ]
+        }
     }
 }
