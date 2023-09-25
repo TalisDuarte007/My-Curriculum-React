@@ -6,19 +6,23 @@ export default function Profile(props) {
     return (
         <StyledBox2>
             <ContentWrapper>
-                <img className="fotoPerfil" src={profile.photo} alt="" />
-                <p>Nome: {profile.nome}</p>
-                <p>Nascimento: {profile.nascimento}</p>
-                <p>Nacionalidade: {profile.nascionalidade}</p>
-                <ul className="lista-socials">
-                    {profile.socialLinks.map((link, index) => (
-                        <li className="socials" key={index}>
-                            <a href={link.url}>
-                                <img className="image-socials" src={link.imageSrc} alt={`#${link.name}`} />
-                            </a>
-                        </li>
-                    ))}
-                </ul>
+                <div className="image-container">
+                    <img className="fotoPerfil" src={profile.photo} alt="" />
+                </div>
+                <div className="text-container">
+                    <p>Nome: {profile.nome}</p>
+                    <p>Nascimento: {profile.nascimento}</p>
+                    <p>Nacionalidade: {profile.nascionalidade}</p>
+                    <ul className="lista-socials">
+                        {profile.socialLinks.map((link, index) => (
+                            <li className="socials" key={index}>
+                                <a href={link.url}>
+                                    <img className="image-socials" src={link.imageSrc} alt={`#${link.name}`} />
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </ContentWrapper>
         </StyledBox2>
     );

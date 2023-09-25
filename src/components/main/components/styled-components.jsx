@@ -49,6 +49,9 @@ export const StyledBox2 = styled.div`
 
 export const ContentWrapper = styled.div`
     flex: 1; /* Preenche todo o espaço vertical disponível */
+    a{
+        text-decoration: none
+    }
     h2{
         margin: 25px 0;
         font-size: 32px;
@@ -110,16 +113,32 @@ export const ContentWrapper = styled.div`
         height: auto;
     }
     @media (max-width: 1024px) {
+        .skills-container{
+            display: flex;
+            width: 100%;
+            text-align: center; /* Centraliza a imagem horizontalmente */
+            flex: 1; 
+            justify-content: center;
+        }
+        .image-container {
+            text-align: center; /* Centraliza a imagem horizontalmente */
+            flex: 1; /* Expande para ocupar o espaço disponível */
+        }
+
+        .fotoIcon {
+            margin: auto;
+        }
         .lista-skills{
             flex-wrap: wrap; 
             gap: 50px;
         }
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: baseline;
         justify-content: center;
     }
     @media (max-width: 768px) {
+        align-items: baseline;
         .lista-skills{
             flex-wrap: wrap; 
             gap: 50px;

@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header';
 import Main from './components/main';
+import Footer from './components/footer';
 import config from "./config.json"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header config={config}/>
       <Main config={config}/>
+      <Footer/>
     </>
     
   );

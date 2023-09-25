@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledDivListaSkills = styled.div`
+    .skills-container{
+        
+    }
     .item-skill-barra{
         display: flex;
         flex-direction: column;

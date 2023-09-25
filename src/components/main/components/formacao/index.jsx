@@ -12,7 +12,7 @@ export default function Formacao(props) {
                 <StyledHR />
                 <h2>Formação</h2>
                 {listaFormacoes.map((listaFormacao, index) => {
-                    const cursos = props.config.main.formacoes[listaFormacao];
+                    const cursos = props.config.profile.formacoes[listaFormacao];
                     return (
                         <div key={listaFormacao}>
                             <StyledDivFormacoes>
