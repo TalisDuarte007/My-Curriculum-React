@@ -31,12 +31,12 @@
                 {
                     "nome":"ADS (Análise e Desenvolvimento de Sistemas)",
                     "link": "https://drive.google.com/file/d/1Q0dQNkwWR8mCa3ICEcvMQrxlfZPxJSCU/view?usp=drive_link",
-                    "info": "Tecnólogo em Análise e Desenvolvimento de Sistemas. Concluído em Junho de 2023."
+                    "info": "Tecnólogo em Análise e Desenvolvimento de Sistemas, concluído em junho de 2023."
                 },
                 {
                     "nome":"Engenharia de Software",
                     "link": "https://www.unopar.com.br/",
-                    "info": "Pós-Graduação em Engenharia de Software, previsto para Janeiro de 2024."
+                    "info": "Pós-Graduação em Engenharia de Software, prevista para janeiro de 2024."
                 }
             ],
             "Alura":[
@@ -62,11 +62,11 @@
         "experiencias": [
             { 
                 "name": "Serrano Móveis",
-                "descricao": "Montador de Móveis durante os anos de 2015-2022"
+                "descricao": "Montador de Móveis durante os anos de 2015 a 2022"
             },
             {
                 "name": "Assistencia Técnica Freelancer",
-                "descricao": "Faço trabalhos como Freelancer, dsede 2019, dando assistencia tecnica em informatica para pequenas empresas e computadores pessoais."
+                "descricao": "Faço trabalhos como freelancer desde 2019, dando assistência técnica em informática para pequenas empresas e computadores pessoais."
             }
         ],
         "contato": {
@@ -144,40 +144,5 @@
             "contato": "https://uploaddeimagens.com.br/images/004/617/635/full/icons8-contato-de-email-80.png?1695576060",
             "projetos": "https://uploaddeimagens.com.br/images/004/617/639/full/projectos.png?1695576106"
         }        
-    },
-    "main": {
-        "formacoes": {
-            "Unopar": [
-                {
-                    "nome":"ADS (Análise e Desenvolvimento de Sistemas)",
-                    "link": "https://drive.google.com/file/d/1Q0dQNkwWR8mCa3ICEcvMQrxlfZPxJSCU/view?usp=drive_link",
-                    "info": "Tecnólogo em Análise e Desenvolvimento de Sistemas. Concluído em Junho de 2023."
-                },
-                {
-                    "nome":"Engenharia de Software",
-                    "link": "https://www.unopar.com.br/",
-                    "info": "Pós-Graduação em Engenharia de Software, previsto para Janeiro de 2024."
-                }
-            ],
-            "Alura":[
-                {
-                    "nome":"Formação Front-End",
-                    "link": "https://cursos.alura.com.br/degree/certificate/f994e2da-a4b3-43a0-bdcf-79eac2824cde",
-                    "info": "Curso de 115horas focado em Front-End com HTML, CSS e JavaScript."
-                }
-            ],
-            "Digital Innovation One":[
-                {
-                    "nome":"Santander Bootcamp Fullstack Developer",
-                    "link": "https://www.dio.me/certificate/5E04ACF2/share",
-                    "info": "Bootcamp de 120horas focado em FullStack com Angular e Java."
-                },
-                {
-                    "nome":"Geração Tech Unimed-BH",
-                    "link": "https://www.dio.me/certificate/7D833A67/share",
-                    "info": "Bootcamp de 127horas focado em FullStack com Angular, MySQL e .NET."
-                }
-            ]
-        }
     }
 }

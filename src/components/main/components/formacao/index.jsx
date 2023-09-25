@@ -3,7 +3,7 @@ import { StyledDivFormacoes } from "./components/styled-formacao"
 
 
 export default function Formacao(props) {
-    const listaFormacoes = Object.keys(props.config.main.formacoes)
+    const listaFormacoes = Object.keys(props.config.profile.formacoes)
 
     return (
         <StyledBox1>
